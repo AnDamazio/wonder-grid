@@ -20,6 +20,7 @@ body {
 }
 
 #characters article {
+    display: inline-block;
     position: relative;
 }
 
@@ -30,10 +31,10 @@ body {
 }
 
 .character-img + .article-title {
-    box-sizing: border-box;
     position: absolute;
     bottom: 4px;
-    width: 434px;
+    width: 100%;
+    box-sizing: border-box;
     padding: 10px;
     background-color: rgba(247, 240, 240, 0.7);
 }
